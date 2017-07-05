@@ -1,5 +1,5 @@
 # Paths
-OPENCV_PATH=/usr/local/opt/opencv3
+OPENCV_PATH=/usr/local/lib/opencv
 
 # Programs
 CC=
