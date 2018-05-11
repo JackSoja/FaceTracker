@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AFAB4A31F2ACFDE00563FF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAB4A21F2ACFDE00563FF4 /* main.cpp */; };
+		6AFAB4C01F2AD09A00563FF4 /* CLM.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFAB4B81F2AD09A00563FF4 /* CLM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFAB4C11F2AD09A00563FF4 /* FCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFAB4B91F2AD09A00563FF4 /* FCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFAB4C21F2AD09A00563FF4 /* FDet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFAB4BA1F2AD09A00563FF4 /* FDet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFAB4C31F2AD09A00563FF4 /* IO.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFAB4BB1F2AD09A00563FF4 /* IO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFAB4C41F2AD09A00563FF4 /* Patch.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFAB4BC1F2AD09A00563FF4 /* Patch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFAB4C51F2AD09A00563FF4 /* PAW.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFAB4BD1F2AD09A00563FF4 /* PAW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFAB4C61F2AD09A00563FF4 /* PDM.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFAB4BE1F2AD09A00563FF4 /* PDM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFAB4C71F2AD09A00563FF4 /* Tracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFAB4BF1F2AD09A00563FF4 /* Tracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFAB4D01F2AD0AE00563FF4 /* CLM.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAB4C81F2AD0AE00563FF4 /* CLM.cc */; };
+		6AFAB4D11F2AD0AE00563FF4 /* FCheck.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAB4C91F2AD0AE00563FF4 /* FCheck.cc */; };
+		6AFAB4D21F2AD0AE00563FF4 /* FDet.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAB4CA1F2AD0AE00563FF4 /* FDet.cc */; };
+		6AFAB4D31F2AD0AE00563FF4 /* IO.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAB4CB1F2AD0AE00563FF4 /* IO.cc */; };
+		6AFAB4D41F2AD0AE00563FF4 /* Patch.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAB4CC1F2AD0AE00563FF4 /* Patch.cc */; };
+		6AFAB4D51F2AD0AE00563FF4 /* PAW.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAB4CD1F2AD0AE00563FF4 /* PAW.cc */; };
+		6AFAB4D61F2AD0AE00563FF4 /* PDM.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAB4CE1F2AD0AE00563FF4 /* PDM.cc */; };
+		6AFAB4D71F2AD0AE00563FF4 /* Tracker.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAB4CF1F2AD0AE00563FF4 /* Tracker.cc */; };
+		6AFAB4D81F2AE7DA00563FF4 /* libFaceTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFAB4AD1F2AD01500563FF4 /* libFaceTracker.a */; };
+		6AFAB4DB1F2B1DC100563FF4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFAB4DA1F2B1DC100563FF4 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6AFAB49D1F2ACFDE00563FF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6A6F8D9A1F383F5F00F06EFD /* timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = timer.hpp; sourceTree = "<group>"; };
+		6AFAB49F1F2ACFDE00563FF4 /* MyFaceTrackerDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFaceTrackerDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFAB4A21F2ACFDE00563FF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6AFAB4AD1F2AD01500563FF4 /* libFaceTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFaceTracker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFAB4B81F2AD09A00563FF4 /* CLM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLM.h; sourceTree = "<group>"; };
+		6AFAB4B91F2AD09A00563FF4 /* FCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCheck.h; sourceTree = "<group>"; };
+		6AFAB4BA1F2AD09A00563FF4 /* FDet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDet.h; sourceTree = "<group>"; };
+		6AFAB4BB1F2AD09A00563FF4 /* IO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IO.h; sourceTree = "<group>"; };
+		6AFAB4BC1F2AD09A00563FF4 /* Patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patch.h; sourceTree = "<group>"; };
+		6AFAB4BD1F2AD09A00563FF4 /* PAW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAW.h; sourceTree = "<group>"; };
+		6AFAB4BE1F2AD09A00563FF4 /* PDM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDM.h; sourceTree = "<group>"; };
+		6AFAB4BF1F2AD09A00563FF4 /* Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
+		6AFAB4C81F2AD0AE00563FF4 /* CLM.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLM.cc; sourceTree = "<group>"; };
+		6AFAB4C91F2AD0AE00563FF4 /* FCheck.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FCheck.cc; sourceTree = "<group>"; };
+		6AFAB4CA1F2AD0AE00563FF4 /* FDet.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDet.cc; sourceTree = "<group>"; };
+		6AFAB4CB1F2AD0AE00563FF4 /* IO.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IO.cc; sourceTree = "<group>"; };
+		6AFAB4CC1F2AD0AE00563FF4 /* Patch.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Patch.cc; sourceTree = "<group>"; };
+		6AFAB4CD1F2AD0AE00563FF4 /* PAW.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAW.cc; sourceTree = "<group>"; };
+		6AFAB4CE1F2AD0AE00563FF4 /* PDM.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PDM.cc; sourceTree = "<group>"; };
+		6AFAB4CF1F2AD0AE00563FF4 /* Tracker.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tracker.cc; sourceTree = "<group>"; };
+		6AFAB4DA1F2B1DC100563FF4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AFAB49C1F2ACFDE00563FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFAB4DB1F2B1DC100563FF4 /* Accelerate.framework in Frameworks */,
+				6AFAB4D81F2AE7DA00563FF4 /* libFaceTracker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFAB4AA1F2AD01500563FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AFAB4961F2ACFDE00563FF4 = {
+			isa = PBXGroup;
+			children = (
+				6AFAB4A11F2ACFDE00563FF4 /* MyFaceTrackerDemo */,
+				6AFAB4AE1F2AD01500563FF4 /* FaceTracker */,
+				6AFAB4A01F2ACFDE00563FF4 /* Products */,
+				6AFAB4D91F2B1DC000563FF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AFAB4A01F2ACFDE00563FF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AFAB49F1F2ACFDE00563FF4 /* MyFaceTrackerDemo */,
+				6AFAB4AD1F2AD01500563FF4 /* libFaceTracker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AFAB4A11F2ACFDE00563FF4 /* MyFaceTrackerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6AFAB4A21F2ACFDE00563FF4 /* main.cpp */,
+				6A6F8D9A1F383F5F00F06EFD /* timer.hpp */,
+			);
+			path = MyFaceTrackerDemo;
+			sourceTree = "<group>";
+		};
+		6AFAB4AE1F2AD01500563FF4 /* FaceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				6AFAB4B81F2AD09A00563FF4 /* CLM.h */,
+				6AFAB4C81F2AD0AE00563FF4 /* CLM.cc */,
+				6AFAB4B91F2AD09A00563FF4 /* FCheck.h */,
+				6AFAB4C91F2AD0AE00563FF4 /* FCheck.cc */,
+				6AFAB4CA1F2AD0AE00563FF4 /* FDet.cc */,
+				6AFAB4CB1F2AD0AE00563FF4 /* IO.cc */,
+				6AFAB4CC1F2AD0AE00563FF4 /* Patch.cc */,
+				6AFAB4CD1F2AD0AE00563FF4 /* PAW.cc */,
+				6AFAB4CE1F2AD0AE00563FF4 /* PDM.cc */,
+				6AFAB4CF1F2AD0AE00563FF4 /* Tracker.cc */,
+				6AFAB4BA1F2AD09A00563FF4 /* FDet.h */,
+				6AFAB4BB1F2AD09A00563FF4 /* IO.h */,
+				6AFAB4BC1F2AD09A00563FF4 /* Patch.h */,
+				6AFAB4BD1F2AD09A00563FF4 /* PAW.h */,
+				6AFAB4BE1F2AD09A00563FF4 /* PDM.h */,
+				6AFAB4BF1F2AD09A00563FF4 /* Tracker.h */,
+			);
+			path = FaceTracker;
+			sourceTree = "<group>";
+		};
+		6AFAB4D91F2B1DC000563FF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AFAB4DA1F2B1DC100563FF4 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6AFAB4AB1F2AD01500563FF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFAB4C11F2AD09A00563FF4 /* FCheck.h in Headers */,
+				6AFAB4C41F2AD09A00563FF4 /* Patch.h in Headers */,
+				6AFAB4C21F2AD09A00563FF4 /* FDet.h in Headers */,
+				6AFAB4C71F2AD09A00563FF4 /* Tracker.h in Headers */,
+				6AFAB4C51F2AD09A00563FF4 /* PAW.h in Headers */,
+				6AFAB4C61F2AD09A00563FF4 /* PDM.h in Headers */,
+				6AFAB4C31F2AD09A00563FF4 /* IO.h in Headers */,
+				6AFAB4C01F2AD09A00563FF4 /* CLM.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6AFAB49E1F2ACFDE00563FF4 /* MyFaceTrackerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AFAB4A61F2ACFDE00563FF4 /* Build configuration list for PBXNativeTarget "MyFaceTrackerDemo" */;
+			buildPhases = (
+				6AFAB49B1F2ACFDE00563FF4 /* Sources */,
+				6AFAB49C1F2ACFDE00563FF4 /* Frameworks */,
+				6AFAB49D1F2ACFDE00563FF4 /* CopyFiles */,
+				6A3959821F2B1F7D0023A0BF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFaceTrackerDemo;
+			productName = MyFaceTrackerDemo;
+			productReference = 6AFAB49F1F2ACFDE00563FF4 /* MyFaceTrackerDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+		6AFAB4AC1F2AD01500563FF4 /* FaceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AFAB4B51F2AD01500563FF4 /* Build configuration list for PBXNativeTarget "FaceTracker" */;
+			buildPhases = (
+				6AFAB4A91F2AD01500563FF4 /* Sources */,
+				6AFAB4AA1F2AD01500563FF4 /* Frameworks */,
+				6AFAB4AB1F2AD01500563FF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceTracker;
+			productName = FaceTracker;
+			productReference = 6AFAB4AD1F2AD01500563FF4 /* libFaceTracker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AFAB4971F2ACFDE00563FF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ChinaPnR;
+				TargetAttributes = {
+					6AFAB49E1F2ACFDE00563FF4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = V2Z4FT3ECY;
+						ProvisioningStyle = Automatic;
+					};
+					6AFAB4AC1F2AD01500563FF4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = V2Z4FT3ECY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6AFAB49A1F2ACFDE00563FF4 /* Build configuration list for PBXProject "MyFaceTrackerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AFAB4961F2ACFDE00563FF4;
+			productRefGroup = 6AFAB4A01F2ACFDE00563FF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AFAB49E1F2ACFDE00563FF4 /* MyFaceTrackerDemo */,
+				6AFAB4AC1F2AD01500563FF4 /* FaceTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A3959821F2B1F7D0023A0BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AFAB49B1F2ACFDE00563FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFAB4A31F2ACFDE00563FF4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFAB4A91F2AD01500563FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFAB4D61F2AD0AE00563FF4 /* PDM.cc in Sources */,
+				6AFAB4D41F2AD0AE00563FF4 /* Patch.cc in Sources */,
+				6AFAB4D71F2AD0AE00563FF4 /* Tracker.cc in Sources */,
+				6AFAB4D21F2AD0AE00563FF4 /* FDet.cc in Sources */,
+				6AFAB4D51F2AD0AE00563FF4 /* PAW.cc in Sources */,
+				6AFAB4D31F2AD0AE00563FF4 /* IO.cc in Sources */,
+				6AFAB4D01F2AD0AE00563FF4 /* CLM.cc in Sources */,
+				6AFAB4D11F2AD0AE00563FF4 /* FCheck.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6AFAB4A41F2ACFDE00563FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib/opencv/lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/lib/opencv/include,
+					/usr/local/lib/opencv/include/opencv,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/opencv/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6AFAB4A51F2ACFDE00563FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib/opencv/lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/lib/opencv/include,
+					/usr/local/lib/opencv/include/opencv,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/opencv/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6AFAB4A71F2ACFDE00563FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DEVELOPMENT_TEAM = V2Z4FT3ECY;
+				DYLD_LIBRARY_PATH = /usr/local/lib/opencv/lib;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib/opencv/lib;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/lib/opencv/include,
+					/usr/local/lib/opencv/include/opencv,
+				);
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib/opencv/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6AFAB4A81F2ACFDE00563FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DEVELOPMENT_TEAM = V2Z4FT3ECY;
+				DYLD_LIBRARY_PATH = /usr/local/lib/opencv/lib;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib/opencv/lib;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/lib/opencv/include,
+					/usr/local/lib/opencv/include/opencv,
+				);
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib/opencv/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6AFAB4B61F2AD01500563FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V2Z4FT3ECY;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib/opencv/lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/lib/opencv/include,
+					/usr/local/lib/opencv/include/opencv,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6AFAB4B71F2AD01500563FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V2Z4FT3ECY;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib/opencv/lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/lib/opencv/include,
+					/usr/local/lib/opencv/include/opencv,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AFAB49A1F2ACFDE00563FF4 /* Build configuration list for PBXProject "MyFaceTrackerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFAB4A41F2ACFDE00563FF4 /* Debug */,
+				6AFAB4A51F2ACFDE00563FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AFAB4A61F2ACFDE00563FF4 /* Build configuration list for PBXNativeTarget "MyFaceTrackerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFAB4A71F2ACFDE00563FF4 /* Debug */,
+				6AFAB4A81F2ACFDE00563FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AFAB4B51F2AD01500563FF4 /* Build configuration list for PBXNativeTarget "FaceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFAB4B61F2AD01500563FF4 /* Debug */,
+				6AFAB4B71F2AD01500563FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AFAB4971F2ACFDE00563FF4 /* Project object */;
+}
